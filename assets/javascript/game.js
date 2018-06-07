@@ -42,6 +42,7 @@ document.onkeyup = function(event){
     updateGuessesLeft();
     updateGuessedLetters();
 
+
 if (guessesLeft > 0){
     if (userGuess === computerChoice) {
         Wins++
